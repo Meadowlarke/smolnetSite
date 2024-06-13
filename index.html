@@ -3,10 +3,47 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=0.8">
+
+<style>
+
+	body {
+	font-size: 1.6em;
+	}
+
+	  body.dark-theme {
+   	 color: #eee;
+   	 background: #121212;
+ 	 }
+
+	  body.dark-theme a {
+   	 color: #809fff;
+ 	 }
+
+
+        pre {
+            width: 95; /* Set width to 90% of the viewport width */
+            margin: 0 auto; /* Center horizontally */
+            white-space: pre-wrap; /* Allow text to wrap within <pre> block */
+            font-family: monospace; /* Use a monospace font for ASCII art */
+            font-size: 2vw; /* Set font size relative to viewport width */
+            line-height: 1.2; /* Adjust line height for better readability */
+            padding: 1px; /* Add some padding for spacing */
+        }
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.responsive {
+  width: 40%;
+  height: auto;
+}
+</style>
+
 </head>
 
 <body>
 
+<button class="btn-toggle">Toggle Dark Mode</button>
 
 
 <h2 id="hi">Welcome to the (online mirror of the)</h2>
@@ -19,18 +56,40 @@
     
 </pre>                                                     
 
-<h3> What is the "STL smolnet"? </h3>
 
-The St. Louis smolnet is a decentralized, artist-run, computer network. There are nodes hidden around the city, which you can view by connecting to the wireless network STL.smol. That network hosts a webpage with a piece of site-specific artwork and each node hosts a completely different piece of art. The webserver is connected to local area network only, meaning that it is not connected to the world wide web, or "internet," and only serves the website to devices within a 100-ish foot bubble. The smolnet exists to host art on flexible, inexpensive, DIY infrastructure.   
+<pre>
 
-<h3> Is that safe? </h3>
+<img src="smolnetMap.png" alt="smolnet map" class="responsive" width="600" height="400">
 
-I'd say so. No digital communications system of any kind is completely impervious to misuse. However, the smolnet is probably safer than any other networked computing that you have done in the recent past. Ultimately, it is just a web page, but you aren't submitting any sensitive data, interacting with other users, or running any code outside of the browser. There aren't even cookies, data collection, or advertising. For these reasons, the smolnet is a pretty safe space compared to the World Wide Web.    
 
-<h3> Who made it? </h3>
+</pre>
+
+
+<a href="HMNI.html">Needle node</a>
+
+<a href="loudspeaker.html">Cigarette node</a>
+
+<a href="attar.html">Node full of acorns</a>
+
+<a href="cookbook.html">Baguette node</a>
+
+<a href="ravenFox.html">"Party on" node</a>
+
+<a href="tincan.html">Signpost node</a>
+
+
+<h3> What is this? </h3>
+
+This is the St. Louis smolnet, a decentralized, artist-run, computer network. The wireless network that you are connected to is local area network only, meaning that it is not connected to the world wide web, or "internet," and only serves this website to devices within a 100-ish foot bubble. The smolnet exists to host art on flexible, inexpensive, DIY infrastructure.   
+
+<h3> Is this safe? </h3>
+
+I'd say so. No digital communications system of any kind is completely impervious to misuse. However, the smolnet is probably safer than any other networked computing that you have done in the recent past. Ultimately, this is just a web page, but you aren't submitting any sensitive data, interacting with other users, or running any code outside of the browser. There aren't even cookies, data collection, or advertising. For these reasons, the smolnet is a pretty safe space compared to the World Wide Web.    
+
+<h3> Who made this? </h3>
 
 <p>
-This project was made by Eden Attar and her friends Amethist Rain, Raven Fox, Caro Asercion, Max Raden, and Raphael Palefsky-Smith, whose artwork you can find on this network. Additional support was provided by Sage Voorhees and Isaac Bromley-Dulfano.
+This project was made by Eden Attar and her friends Raven Fox, Caro Asercion, Max Raden, Raphael Palefsky-Smith, and Amethist Rain, whose artwork you can find on this network. Additional and essential support was provided by Sage Voorhees, Isaac Bromley-Dulfano, and all of our lovely bike friends, especially , Stu, Bert, and Melissa.
 </p>
 
 <p>
@@ -40,19 +99,28 @@ This project was made with support from The Luminary with funding from The Andy 
 
 <h3> This is weird. Why did you do this? </h3>
 
-I was dissatisfied with the internet and the way that it feels the same no matter where you are geographically---like walking into a TJMaxx. Whether you are logging on to twitter from Los Angeles or somewhere in Maine, the experience is going to be largely the same. The internet is a real, physical infrastructure of wires and machines, probably totalling in the hundreds of millions of tons, but the end experience has been designed in such a way which makes it feel more immaterial than it actually is. 
+I was dissatisfied with the internet and the way that it feels the same no matter where you are geographically---like walking into a TJMaxx. Whether you are logging on to twitter from Los Angeles or somewhere in Maine, the experience is going to be largely the same. The internet is a real, physical infrastructure of wires and machines, probably totalling in the hundreds of millions of tons, but it has been built in such a way which makes it feel more immaterial than it actually is. 
 
 What if, on the contrary, we built a computer network of small machines that highlight their physical location and geographical specificity? 
 
-<h3> Where do I see them? </h3>
+<h3> Are there more of these? </h3>
 
-There are 5 nodes hidden around the city of St. Louis. From August 2023 to February 2024 the only way to see them is to visit them on-site in St. Louis. An easily accessible node that you can start at is located at the Central West End Farm at 5057 Waterman Boulevard From there you can find other nodes in the network. In February 2024 I will upload mirrors of the nodes here so that the whole world can see them.    
+Yes! There are a bunch hidden around the city. At the end of the piece hosted on each node you will find the location for another node on the network. 
+
 
 <h3> This is neat, how do I build one of these for myself? </h3>
 
-I'm glad you asked. We made a handy-dandy guide just for you! <a href="guide.pdf">PDF</a> If you do make one, please feel free to copy the .smol nomenclature.
+I'm glad you asked. We made a handy-dandy guide just for you! <a href="smolnetGuide.pdf">PDF</a> If you do make one, please feel free to copy the .smol nomenclature.
 
-If you have any questions, or just want to reach out, shoot me a message at stlsmolnet at gmail dot com 
+If you have any questions, or just want to reach out, shoot me a message at stlsmolnet@gmail.com 
+
+  <script>
+    const btn = document.querySelector(".btn-toggle");
+
+    btn.addEventListener("click", function () {
+      document.body.classList.toggle("dark-theme");
+    });
+  </script>
 
 </body>
 </html>
